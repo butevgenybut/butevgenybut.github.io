@@ -1,0 +1,74 @@
+#top{
+  width:98%;
+  height: auto;
+  background-color: lightgrey;
+  padding: 1%;
+  font-size: 30px;
+}
+
+#menu{
+  width: 25%;
+  height: auto;
+  background-color: coral;
+  float: left;
+  text-align: center;
+}
+#content{
+  width: 75%;
+  height: auto;
+  background: #ffffff url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/brown-dirt-minecraft-pattern_thumb.jpg) center center/auto repeat;
+  float: left;
+}
+
+.post{
+  width: 94%;
+  height: auto;
+  background-color: antiquewhite;
+  margin: 2%;
+  margin-bottom: 0px;
+  padding: 1%;
+  float: left;
+  text-align: justify;
+  transition: all 300ms ease 0s;
+}
+.post:hover{
+  background-color: white;
+}
+
+.postimage{
+  width: 30%;
+  height: auto;
+  margin: 2%;
+  float: left;
+}
+h1{
+  text-align:center;
+}
+
+
+#menu ul li{
+  width:80%;
+  background-color: beige;
+  padding: 5%;
+  margin: 5%;
+  display: none;
+}
+
+#menu:hover ul li{
+  display: block;
+}
+
+#menu:hover ul li ul li{
+  width:80%;
+  background-color: burlywood;
+  padding: 5%;
+  margin: 5%;
+  display: none;
+}
+
+#menu ul li:hover ul li{
+  display: block;
+}
+ul{
+  padding-left: 0px;
+}
